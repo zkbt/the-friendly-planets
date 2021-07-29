@@ -1,12 +1,10 @@
 # the-friendly-planets
-Tools for visualizing spectroscopic light curves, with flux as a function of wavelength and time.
-
-This is *super* in development right now!
+Tool for making a cute, neatly aligned, not-to-messy image of a planet one or more moons nearby.
 
 ## Installation
 If you want to install this code just to use it, you can simply run
 ```
-pip install git+https://github.com/zkbt/the-friendly-planets.git
+pip install the-friendly-planets
 ```
 
 If you want to install this code while being able to edit and develop it, you can fork and/or clone this repository onto your own computer and then install it directly as an editable package by running
@@ -20,8 +18,10 @@ This will point your environment's `thefriendlyplanets` package to point to this
 ## Usage
 
 The following snippet of code shows the basic structure and functionality of this code (so far):
+
 ```python
 from thefriendlyplanets import *
+i = make_friendly_image('uranus-test-image.fit')
 ```
 
 ## Contributors
