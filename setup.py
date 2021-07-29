@@ -99,6 +99,7 @@ setup(
             "mkdocstrings",
             "pytkdocs[numpy-style]",
             "mkdocs-jupyter",
+            "twine",
         ]
     },
     # under what license is this code released?
