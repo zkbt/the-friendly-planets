@@ -340,7 +340,7 @@ class make_friendly_image:
 def align_list(filepath):
     files = glob(filepath)
     for f in files:
-        FriendlyImage(f, size=256).display_with_zoom()
+        make_friendly_image(f)
 
 
 if __name__ == "__main__":
