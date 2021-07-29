@@ -1,0 +1,21 @@
+# any directories to ignore
+scratch/
+
+# weird mac files
+__pycache__
+.ipynb_checkpoints
+.DS_Store
+
+# media files
+*.png
+*.jpg
+*.pdf
+*.mp4
+
+# data files
+*.fits
+*.fit
+*.zip
+
+*.egg-info
+site/

@@ -1,0 +1,28 @@
+site_name: the-friendly-planets
+site_url: https://zkbt.github.com/the-friendly-planets
+nav:
+    #- Planning Observations : planning.ipynb
+    - Making Aligned Images: aligning.ipynb
+theme:
+  name: "material"
+repo_url: https://github.com/zkbt/the-friendly-planets/
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute : False
+      include_source : True
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          selection:
+            docstring_style: "numpy"
+          rendering:
+            show_source: False
+      custom_templates: templates
+      watch:
+        - thefriendlyplanets
+use_directory_urls: False
+
+# this is super borrowed from Christina Hedges' fabulous
+# https://christinahedges.github.io/astronomy_workflow/
