@@ -1,5 +1,5 @@
 # the-friendly-planets
-Tool for making a cute, neatly aligned, not-to-messy image of a planet one or more moons nearby.
+Tool for making a cute, neatly aligned, not-to-messy image of a planet one or more moons nearby. Read the documentation [here](https://zkbt.github.io/the-friendly-planets/aligning.html)!
 
 ## Installation
 If you want to install this code just to use it, you can simply run
